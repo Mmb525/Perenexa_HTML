@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: rgb(28, 28, 28);
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    color: white;
+    font-size: larger;
+    align-items: center;
+    margin: 8px auto 0 auto;
+  
+}
+
+nav .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 8px;
+}
+/* ========================================================================= */
+/* =================================================LEFT SIDE========================= */
+/* ========================================================================= */
+.container .left_side {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* background: red; */
+}
+
+.container .left_side .tittle .heading {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.container .left_side .tittle i {
+    color: rgb(167, 158, 34);
+}
+
+.container .left_side .tittle ul li {
+    /* text-decoration: none; */
+    list-style-type: none;
+    padding-top: 10px;
+}
+/* ========================================================================= */
+/* =================================================MAIN SIDE========================= */
+/* ========================================================================= */
+.container .main {
+    width: 55%;
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.container .main input {
+    background: transparent;
+    height: 28px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+.container .main .file {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.yellow
+{
+    color: yellow;
+}
+.container .main .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(39, 37, 37);
+}
+.container .main .post
+{
+    height: 500px;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+.container .main .post .image_card{
+    height: 60%;
+}
+.container .main .post img{
+    border-radius: 20px 20px 0 0 ;
+   
+}
+.container .main .post .details
+{
+    height: 20%;
+    background:rgb(44, 42, 42);
+    border-radius: 0 0 20px 20px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.container .main .post .details p
+{
+    padding-top: 15px;
+    font-size: medium;
+    color: rgb(101, 100, 100);
+}
+.container .main .post .details .sub_divs
+{
+    display: flex;
+    flex-direction:row ;
+    gap: 5px;
+}
+.container .main .post .details .sub_divs .docs
+{
+    height: 20px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 5px;
+    font-size: medium;
+}
+.container .main .post .details .sub_divs .morethan
+{
+
+    height: 20px;
+    width: 80px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 5px;
+    font-size: medium;
+}
+
+
+/* ========================================================================= */
+/* =================================================RIGHT SIDE========================= */
+/* ========================================================================= */
+.profile
+{
+    padding-left: 10px;
+}
+.container .right_side
+{
+    width: 25%;
+}
+.right_side .image_card{
+    height: 300px;
+    width: 95%;
+    margin: 10px auto;
+    /* border: 2px solid rgb(50, 49, 49); */
+    background:rgb(44, 42, 42);
+    border-radius: 30px;
+}
+.right_side .image_card .name
+{
+    text-align: center;
+    font-size: small;
+    /* padding-left: 2px; */
+}
+.right_side .image_card .names
+{
+    padding-left: 5px;
+    font-size: large;
+    padding-top: 5px;
+    
+}
+.right_side .services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 7px;
+    gap: 5px;
+}
+.right_side .about
+{
+    align-items: center;
+    border: 2px solid gray;
+    width: 80%;
+    border-radius: 50px;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 23px;
+    padding: 5px 0 5px 5px;
+}
+.right_side .about_sub
+{
+    align-items: center;
+    border: 2px solid gray;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 110px;
+    padding-top: 5px;
+}
+.sub
+{
+    
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 50px;
+    width: 90%;
+    margin: 2px auto;
+    height: 30px;
+    align-items: center;
+    gap: 5px;
+    padding-left: 8px;
+}

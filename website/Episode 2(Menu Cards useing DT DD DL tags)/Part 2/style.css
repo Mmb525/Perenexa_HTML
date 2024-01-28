@@ -1,0 +1,11 @@
+*{
+    font-family: "Georgia", serif ;
+}
+.heading{
+    text-align: center;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
